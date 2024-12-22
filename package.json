@@ -1,0 +1,22 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure-report": "allure generate reports/allure-results/ --clean && allure open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.4.4",
+    "@wdio/cli": "^9.4.5",
+    "@wdio/cucumber-framework": "^9.4.4",
+    "@wdio/local-runner": "^9.4.5",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0"
+  }
+}
