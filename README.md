@@ -26,16 +26,20 @@ Ini adalah final Project QA Sanbercode
   Kasir Aja Pengguna Tests
   ##### Scenario
   Add pengguna with valid input
+  
   Add pengguna with invalid email
+  
   Add pengguna with empty name
 
   ## Feature
   Kasir Aja Kategori Tests
   ##### Scenario
   Add kategori with valid input
+  
   Add kategori with empty name
 
 ## Run Test
   npm run wdio
+
 ## Create Report
   npm run allure-report
