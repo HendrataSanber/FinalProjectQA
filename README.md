@@ -10,13 +10,16 @@ Ini adalah final Project QA Sanbercode
   Kasir Aja Login Tests with TDD
   ##### Scenario
   Login successfully with valid credentials
+  
   Login with invalid credentials
   
   ## Feature
   Kasir Aja Pelanggan Tests
   ##### Scenario
   Add pelanggan with valid input
+  
   Add pelanggan with invalid phone
+  
   Add pelanggan with empty name
 
   ## Feature
